@@ -1,0 +1,428 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Keania+One&family=Pacifico&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body class="container-flex column">
+        <div class="header container-flex row">
+            <div class="header-content container-flex row align-center">
+                <div class="logo container-flex row align-center">
+                    <img src="assets/logo.png" alt="" />
+                    <h1>Learn2<span>Java</span>.com</h1>
+                </div>
+                <div class="navbar container-flex row align-center">
+                    <p>Contact us</p>
+                    <p>Articles</p>
+                    <p>About us</p>
+                    <div class="blue-button container-flex row align-center">
+                        <p class="button open-button">Log in</p>
+                        <div class="sign-delim"></div>
+                        <p class="button open-button">Sign up</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <dialog class="modal" id="LoginModal">
+            <div class="modal-content">
+                <h2>Log in to your Account!</h2>
+                <img src="assets/img.avif" alt="" />
+                <div>
+                    <p>Your Email:</p>
+                    <input type="email" placeholder="Email" />
+                </div>
+                <div>
+                    <p>Your Password:</p>
+                    <input type="password" placeholder="Password" />
+                </div>
+                <div class="buttons container-flex row">
+                    <div>
+                        <p>Log In</p>
+                    </div>
+                    <p>Sign Up</p>
+                </div>
+            </div>
+        </dialog>
+        <dialog class="modal" id="SignUpModal">
+            <div class="modal-content">
+                <h2>Create new Account!</h2>
+                <img src="assets/img.avif" alt="" />
+                <div>
+                    <p>Your Email:</p>
+                    <input type="email" placeholder="Email" />
+                </div>
+                <div>
+                    <p>Create Password:</p>
+                    <input type="password" placeholder="Password" />
+                </div>
+                <div>
+                    <p>Confirm Password:</p>
+                    <input type="password" placeholder="Password" />
+                </div>
+                <div class="buttons container-flex row">
+                    <div>
+                        <p>Sign Up</p>
+                    </div>
+                    <p>Log In</p>
+                </div>
+            </div>
+        </dialog>
+        <div class="top-section container-flex row align-center">
+            <div class="hidden-top-title-for-mobile">
+                <h1>Learn to <span>Java</span> <span>now! ;)</span></h1>
+            </div>
+            <video autoplay muted loop>
+                <source
+                    src="assets/ezgif-7-ae6be14262 (4).mp4"
+                    type="video/mp4"
+                />
+            </video>
+            <div class="top-descr container-flex column align-center">
+                <h1>Learn to <span>Java</span> <span>now! ;)</span></h1>
+                <p>What would you like to know today?</p>
+                <input type="text" class="top-search" />
+                <p>Or just <span>start from scratch!</span></p>
+            </div>
+        </div>
+        <img src="assets/fromedline.png" alt="" />
+        <div class="course-specifications container-flex row">
+            <div class="spec-descr container-flex column">
+                <h1>Java Backend Mastery:</h1>
+                <h2>Your Comprehensive Guide from A to Z</h2>
+                <p>
+                    Our site covers everything you need to know about Java
+                    backend development, from foundational concepts to advanced
+                    techniques. Explore a comprehensive collection of tutorials,
+                    guides, best practices, and real-world examples—all aimed at
+                    helping you build robust and scalable backend systems using
+                    Java.
+                </p>
+                <div class="blue-button">
+                    <p>Start studiyng!</p>
+                </div>
+            </div>
+            <div class="one-spec">
+                <div>
+                    <img src="assets/article.png" alt="" />
+                    <div class="spec-delim"></div>
+                    <p>
+                        Our resource boasts an extensive library of
+                        <span>200+</span> articles, providing in-depth insights
+                        and valuable knowledge on various topics.
+                    </p>
+                </div>
+            </div>
+            <div class="one-spec">
+                <div>
+                    <img src="assets/example.png" alt="" />
+                    <div class="spec-delim"></div>
+                    <p>
+                        Our resource features an impressive collection of
+                        <span>300+</span> examples, offering hands-on experience
+                        and practical application of concepts.
+                    </p>
+                </div>
+            </div>
+            <div class="one-spec">
+                <div>
+                    <img src="assets/stars.png" alt="" />
+                    <div class="spec-delim"></div>
+                    <p>
+                        Our resource is built upon a highly popular app with an
+                        outstanding average rating of <span>4.8</span>,
+                        showcasing its reliability, quality, and user
+                        satisfaction.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="course-coverage container-flex row">
+            <div class="coverage-img container-flex column align-center">
+                <img src="assets/coverage.png" alt="" />
+            </div>
+            <div class="coverage-descr container-flex column">
+                <h1>Coverage of topics of our resource!</h1>
+                <div class="wide-ranage container-flex row align-center">
+                    <img src="assets/noto_books.png" alt="" />
+                    <p>
+                        Our resource covers a
+                        <span>wide range of topics</span>.
+                    </p>
+                </div>
+                <div class="framew-dock container-grid">
+                    <img src="assets/frameworks.png" alt="" />
+                    <p>
+                        We dive into essential frameworks like
+                        <span>Spring</span> and <span>Hibernate</span>,
+                        exploring their intricacies and best practices for
+                        implementation.
+                    </p>
+                    <img src="assets/container.png" alt="" />
+                    <p>
+                        Additionally, we provide guidance on
+                        <span>Docker</span> and other relevant technologies,
+                        ensuring a holistic understanding of modern backend
+                        development.
+                    </p>
+                </div>
+                <div class="blue-arrow container-flex row align-center">
+                    <p>Everything Java bakender should know!</p>
+                </div>
+            </div>
+        </div>
+        <div class="about-us-section">
+            <h1>More about us</h1>
+            <div class="about-us-info container-flex row">
+                <div class="one-about-info">
+                    <h4>
+                        Are You Ready to Master Java Programming with
+                        Learn2Java?
+                    </h4>
+                    <p>
+                        Welcome to Learn2Java! We are passionate about
+                        empowering individuals to master Java programming and
+                        excel in the world of software development. At
+                        Learn2Java, we offer a comprehensive learning platform
+                        designed to cater to learners of all levels, from
+                        beginners to experienced developers.
+                    </p>
+                </div>
+                <div class="one-about-info">
+                    <h4>
+                        How Does Learn2Java Enhance Your Java Programming
+                        Journey?
+                    </h4>
+                    <p>
+                        Our mission is to provide structured and engaging
+                        tutorials that cover the core concepts of Java
+                        programming, including object-oriented principles, data
+                        structures, multithreading, and GUI development. We
+                        believe in hands-on learning, which is why our platform
+                        includes real-world projects and coding exercises to
+                        reinforce your skills and deepen your understanding.
+                    </p>
+                </div>
+                <div class="one-about-info">
+                    <h4>Ready to Dive into Java Frameworks with Learn2Java?</h4>
+                    <p>
+                        In addition to Java fundamentals, we also introduce you
+                        to popular Java frameworks such as Spring and Hibernate,
+                        giving you the tools and knowledge to build scalable and
+                        efficient applications. Our tutorials are curated by
+                        industry experts who are dedicated to providing you with
+                        the most relevant and up-to-date content.
+                    </p>
+                </div>
+                <div><img src="assets/mansitting.png" alt="" /></div>
+            </div>
+            <img src="assets/Ellipse.png" alt="" />
+        </div>
+        <div class="upgrade-section container-grid">
+            <h1>Become an Upgraded User</h1>
+            <h2>What you will get:</h2>
+            <div class="buy-now container-flex row align-center">
+                <img src="assets/arrow.png" alt="" />
+                <div class="buy-button">
+                    <p>BUY NOW</p>
+                </div>
+            </div>
+            <h2>What you will get:</h2>
+            <div class="you-will-get container-flex row">
+                <div class="one-you-will-get">
+                    <div class="top-of-one-you">
+                        <h3>Articles</h3>
+                        <img src="assets/article.png" alt="" />
+                    </div>
+                    <p>+50 exclusive articles</p>
+                    <div class="container-flex row align-center">
+                        <img src="assets/solar_graph-up-bold.png" alt="" />
+                        <p>1+ interested Java coders</p>
+                    </div>
+                </div>
+
+                <div class="one-you-will-get">
+                    <div class="top-of-one-you">
+                        <h3>Examples</h3>
+                        <img src="assets/example.png" alt="" />
+                    </div>
+                    <p>+100 exclusive examples</p>
+                    <div class="container-flex row align-center">
+                        <img src="assets/solar_graph-up-bold.png" alt="" />
+                        <p>2+ interested Java coders</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="most-vieved-articles-section">
+            <h2>Recent most viewed articles</h2>
+            <div class="most-vieved-articles container-flex row">
+                <div class="article-card">
+                    <div>
+                        <p>Article on Apr 19, 2024</p>
+                        <h1>Managing User Focus with :focus-visible</h1>
+                    </div>
+                    <br />
+                    <br />
+                    <p>ACCESSIBILITY, FORMS</p>
+                </div>
+                <div class="article-card">
+                    <div>
+                        <p>Article on Apr 19, 2024</p>
+                        <h1>The Power of :has() in CSS</h1>
+                    </div>
+                    <br />
+                    <br />
+                    <p>:HAS, CSS</p>
+                </div>
+                <div class="article-card">
+                    <div>
+                        <p>Article on Mar 29, 2024</p>
+                        <h1>Accessible Forms with Pseudo Classes</h1>
+                    </div>
+                    <br />
+                    <br />
+                    <p>ACCESSIBILITY, CSS, FOCUS, FORMS, HTML, SEMANTICS</p>
+                </div>
+                <div class="article-card">
+                    <div>
+                        <p>Article on Mar 29, 2024</p>
+                        <h1>Passkeys: What the Heck and Why?</h1>
+                    </div>
+                    <br />
+                    <br />
+                    <p>PASSKEYS, SECURITY, WEBAUTHN</p>
+                </div>
+                <div class="article-card">
+                    <div>
+                        <p>Article on Jan 25, 2023</p>
+                        <h1>Animating CSS Grid (How To + Examples)</h1>
+                    </div>
+                    <br />
+                    <br />
+                    <p>
+                        ANIMATION, GRID, GRID-TEMPLATE-COLUMNS,
+                        GRID-TEMPLATE-ROWS
+                    </p>
+                </div>
+                <div class="article-card">
+                    <div>
+                        <p>Article on Jun 22, 2022</p>
+                        <h1>Different Ways to Write CSS in React</h1>
+                    </div>
+                    <br />
+                    <br />
+                    <p>REACT</p>
+                </div>
+                <div class="article-card">
+                    <div>
+                        <p>Article on Jan 11, 2023</p>
+                        <h1>:has is an unforgiving selector</h1>
+                    </div>
+                    <br />
+                    <br />
+                    <p>:HAS, :IS, :WHERE, SPECIFICITY</p>
+                </div>
+                <div class="article-card">
+                    <div>
+                        <p>Article on Jan 17, 2023</p>
+                        <h1>6 Common SVG Fails (and How to Fix Them)</h1>
+                    </div>
+                    <br />
+                    <br />
+                    <p>SVG</p>
+                </div>
+                <div class="article-card">
+                    <div>
+                        <p>Article on Dec 18, 2018</p>
+                        <h1>Ease-y Breezy: A Primer on Easing Functions</h1>
+                    </div>
+                    <br />
+                    <br />
+                    <p>ANIMATION, EASING</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-section container-flex row">
+            <div class="subscr container-flex column align-center">
+                <img src="assets/logo.png" alt="" />
+                <h3>Subscribe the newsletter!</h3>
+                <input type="text" placeholder="Email" />
+            </div>
+            <div class="footer-content container-flex column">
+                <div class="container-flex row">
+                    <div>
+                        <h3>Learn2Java</h3>
+                        <p>Vacancies</p>
+                        <p>News</p>
+                        <p>About Us</p>
+                        <p>Contacts</p>
+                    </div>
+                    <div>
+                        <h3>Information</h3>
+                        <p>Warranty and service</p>
+                        <p>Blog</p>
+                        <p>Questions and answers</p>
+                        <p>Site Terms</p>
+                    </div>
+                    <div>
+                        <h3>Business</h3>
+                        <p>Become a partner</p>
+                        <p>Partner's office</p>
+                        <p>Corporate department</p>
+                    </div>
+                    <div class="container-flex column align-center">
+                        <div class="app">
+                            <h3>Our Apps:</h3>
+                            <div class="app-links container-flex row">
+                                <div class="app-link">
+                                    <img
+                                        src="assets/mingcute_google-play-line.svg"
+                                        alt=""
+                                    />
+                                    <div class="app-link-text">
+                                        <p>Install from</p>
+                                        <p>Google Play</p>
+                                    </div>
+                                </div>
+                                <div class="app-link">
+                                    <img src="assets/Group.png" alt="" />
+                                    <div class="app-link-text">
+                                        <p>Install from</p>
+                                        <p>App Store</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="socials">
+                            <h3>Our Socials:</h3>
+                            <div class="socials-links container-flex row">
+                                <img src="assets/mdi_instagram.png" alt="" />
+                                <img
+                                    src="assets/mingcute_youtube-line.png"
+                                    alt=""
+                                />
+                                <img
+                                    src="assets/mingcute_facebook-line.png"
+                                    alt=""
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rights container-flex row">
+                    <p>Copyright 1999-2024 by Refsnes Data.</p>
+                    <p>All Rights Reserved Learn2Java is Powered by MSDTech</p>
+                </div>
+            </div>
+            <img src="assets/cup.png" alt="" />
+        </div>
+        <script src="scripts/scripts.js"></script>
+    </body>
+</html>
