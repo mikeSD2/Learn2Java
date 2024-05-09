@@ -187,15 +187,13 @@ h6 {
     height: 13px;
     background-color: var(--borders_delims-clr);
 }
-.top-section > video {
+.top-section > #mantyping {
     margin-top: 40px;
     width: clamp(200px, 32vw, 600px);
     opacity: 0;
     -webkit-transform: translateX(-30%);
     -ms-transform: translateX(-30%);
     transform: translateX(-30%);
-    -webkit-animation: videoReveal 1s ease-out forwards;
-    animation: videoReveal 1s ease-out forwards;
 }
 @-webkit-keyframes videoReveal {
     to {

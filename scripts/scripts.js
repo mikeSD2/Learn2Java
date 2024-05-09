@@ -36,3 +36,8 @@ function showModal(modalToShow, openbutton) {
 }
 showModal(loginModal, openModal[0]);
 showModal(signUpModal, openModal[1]);
+//onload
+const mantyping = document.querySelector("#mantyping");
+window.onload = function () {
+    mantyping.style.animation = "videoReveal 1s ease-out forwards";
+};
