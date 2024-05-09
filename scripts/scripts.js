@@ -36,7 +36,7 @@ function showModal(modalToShow, openbutton) {
 }
 showModal(loginModal, openModal[0]);
 showModal(signUpModal, openModal[1]);
-//onload
+//onload video. for images onload attribute
 var mantyping = document.querySelector("#mantyping");
 mantyping.oncanplay = function () {
     mantyping.style.animation = "videoReveal 1s ease-out forwards";

@@ -922,7 +922,7 @@ body > img {
     .top-section .top-descr input[type="text"] {
         font-size: clamp(7px, 1vw, 15px);
     }
-    .top-section video {
+    .top-section #mantyping {
         width: 80%;
     }
     .top-descr h1 {
