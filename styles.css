@@ -187,7 +187,7 @@ h6 {
     height: 13px;
     background-color: var(--borders_delims-clr);
 }
-.top-section > #mantyping {
+.top-section > video {
     margin-top: 40px;
     width: clamp(200px, 32vw, 600px);
     opacity: 0;
